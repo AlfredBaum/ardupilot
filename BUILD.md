@@ -2,7 +2,6 @@
 
 ## Get the Source
 
-Clone the project from GitHub:
 ```sh
 apt-get update
 apt-get upgrade
@@ -16,6 +15,7 @@ pip install empy
 pip install pexpect
 pip install monotonic
 
+Clone the project from GitHub:
 git clone --recursive https://github.com/AlfredBaum/ardupilot.git
 
 cd ardupilot
