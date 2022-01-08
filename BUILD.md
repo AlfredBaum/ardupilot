@@ -19,7 +19,8 @@ git submodule update --init --recursive
 ./waf configure --board ArduPilotH743
 ./waf plane
 
-# ArduPilot Bootloader
+#-  ArduPilot Bootloader  -#
+
 ./waf distclean
 ./waf configure --board ArduPilotH743 --bootloader
 ./waf bootloader
