@@ -11,7 +11,12 @@ apt-get install gcc-arm-none-eabi
 git clone --recursive https://github.com/AlfredBaum/ardupilot.git
 
 cd ardupilot
+apt install python
+apt install python3-pip
 pip3 install future
+apt install python-pip
+pip install empy
+pip install pexpect
 git submodule update --init --recursive
 
 ./waf distclean
