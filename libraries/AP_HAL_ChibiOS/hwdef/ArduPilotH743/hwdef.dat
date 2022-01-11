@@ -256,8 +256,8 @@ define HAL_GPIO_LED_OFF 0
 # define HAL_BOARD_TERRAIN_DIRECTORY "/APM/TERRAIN"
 
 # enable RAMTROM parameter storage
-# define HAL_STORAGE_SIZE 32768
-# define HAL_WITH_RAMTRON 1
+define HAL_STORAGE_SIZE 32768
+define HAL_WITH_RAMTRON 1
 
 # allow to have have a dedicated safety switch pin
 # define HAL_HAVE_SAFETY_SWITCH 1
