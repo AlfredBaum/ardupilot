@@ -262,7 +262,7 @@ The main groups are:
  - tools
  - examples: *programs that show how certain libraries are used or to simply
    test their operation*
- - benchmarks: *requires `--enable-benchmarks` during configurarion*
+ - benchmarks: *requires `--enable-benchmarks` during configuration*
  - tests: *basically unit tests to ensure changes don't break the system's
    logic*
 
